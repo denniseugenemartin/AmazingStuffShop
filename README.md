@@ -56,7 +56,9 @@ This software uses the following:
 
 - [Microsoft SQL Server 2019](https://www.microsoft.com/en-us/sql-server/sql-server-2019) - Query and analyze your data using industry-leading performance and security.
 
-- [Azure](https://azure.microsoft.com/en-us/products/app-service/#overview) - Quickly build, deploy, and scale web apps and APIs on your terms. Work with [.NET](https://docs.microsoft.com/en-us/azure/app-service/quickstart-dotnetcore?tabs=net60&pivots=development-environment-vs), [.NET Core](https://docs.microsoft.com/en-us/azure/app-service/quickstart-dotnetcore?tabs=net60&pivots=development-environment-vscode), [Node.js](https://docs.microsoft.com/en-us/azure/app-service/quickstart-nodejs?tabs=windows&pivots=development-environment-vscode), [Java](https://docs.microsoft.com/en-us/azure/app-service/quickstart-java?tabs=javase&pivots=platform-linux), [Python](https://docs.microsoft.com/en-us/azure/app-service/quickstart-python?tabs=bash&pivots=python-framework-flask), or PHP in containers, or running on Windows or Linux. Meet rigorous,  enterprise-grade performance, and security and compliance requirements  with a trusted, fully managed service that handles more than 60 billion  requests per day.
+- [Azure](https://azure.microsoft.com/en-us/products/app-service/#overview) - Quickly build, deploy, and scale web apps and APIs running on Windows or Linux. 
+
+- [TinyMCE](https://www.tiny.cloud/docs/tinymce/6/) - TinyMCE is a rich-text editor that allows users to create formatted content within a user-friendly interface.
 
 ---
 
