@@ -8,7 +8,9 @@
 ## Key Features
 
 * Role based authentication. Many UI elements are hidden or available depending on logged in user's privileges. 
-* Utilizes Stripe API for secure payment processing, allowing user's or admin to process payments by credit card.
+* Company role allows orders to be placed using a delayed payment, generating a Net 30 due date.
+* Admin role allows access to many functions, such as content creation, user creation, and updating order and payment status.
+* Uses Stripe API for secure payment processing, allowing user's or admin to process payments by credit card.
 * Items added to shopping cart are saved and linked to user's identity, so they will display on subsequent visits.
 * Information is displayed in dynamic tables, available for sorting.
 * Website offers tiered price structure that updates automatically based on quantity of item in cart.
@@ -40,13 +42,11 @@ In order to simulate payments, this website uses Stripe API's test configuration
 
 ## Built With
 
-This software uses the following open source packages:
+This software uses the following:
 
-- [Microsoft .NET Core 6](https://learn.microsoft.com/en-us/aspnet/core/?view=aspnetcore-6.0) - .NET is a free, cross-platform, open source developer platform for building many different types of applications.
+- [Microsoft .NET Core 6](https://learn.microsoft.com/en-us/aspnet/core/?view=aspnetcore-6.0) - .NET is a free, cross-platform, open source developer platform for building many different types of applications. With .NET, you can use multiple languages, editors, and libraries to build for web, mobile, desktop, games, IoT, and more.
 
-  With .NET, you can use multiple languages, editors, and libraries to build for web, mobile, desktop, games, IoT, and more.
-
-- [Stripe API](https://stripe.com/docs) -Millions of companies of all sizes—from startups to Fortune 500s—use  Stripe’s software and APIs to accept payments, send payouts, and manage  their businesses online.    
+- [Stripe API](https://stripe.com/docs) -The Payment Methods API allows you to accept a variety of payment methods through a single API.   
 
 - [SweetAlert](https://sweetalert2.github.io/#examples) - A beautiful, responsive, customizable, accessible (WAI-ARIA) replacement for JavaScript's popup boxes.
 
