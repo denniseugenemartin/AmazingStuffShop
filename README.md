@@ -1,5 +1,3 @@
-
-
 #                                          Amazing Stuff Shop
 
 
@@ -52,13 +50,16 @@ This software uses the following open source packages:
 
 - [SweetAlert](https://sweetalert2.github.io/#examples) - A beautiful, responsive, customizable, accessible (WAI-ARIA) replacement for JavaScript's popup boxes.
 
--  [Bootstrap](http://getbootstrap.com/) - Extensive list of components and  Bundled Javascript plugins.
+- [Bootstrap](http://getbootstrap.com/) - Extensive list of components and  Bundled Javascript plugins.
 
 - [DataTables](https://datatables.net/manual/index) - DataTables is a plug-in for the jQuery Javascript library. It is a  highly flexible tool, built upon the foundations of progressive  enhancement, that adds all of these advanced features to any HTML table.
+
+- [Microsoft SQL Server 2019](https://www.microsoft.com/en-us/sql-server/sql-server-2019) - Query and analyze your data using industry-leading performance and security.
+
+- [Azure](https://azure.microsoft.com/en-us/products/app-service/#overview) - Quickly build, deploy, and scale web apps and APIs on your terms. Work with [.NET](https://docs.microsoft.com/en-us/azure/app-service/quickstart-dotnetcore?tabs=net60&pivots=development-environment-vs), [.NET Core](https://docs.microsoft.com/en-us/azure/app-service/quickstart-dotnetcore?tabs=net60&pivots=development-environment-vscode), [Node.js](https://docs.microsoft.com/en-us/azure/app-service/quickstart-nodejs?tabs=windows&pivots=development-environment-vscode), [Java](https://docs.microsoft.com/en-us/azure/app-service/quickstart-java?tabs=javase&pivots=platform-linux), [Python](https://docs.microsoft.com/en-us/azure/app-service/quickstart-python?tabs=bash&pivots=python-framework-flask), or PHP in containers, or running on Windows or Linux. Meet rigorous,  enterprise-grade performance, and security and compliance requirements  with a trusted, fully managed service that handles more than 60 billion  requests per day.
 
 ---
 
 > Dennis Martin
 >
 > [GitHub](https://github.com/denniseugenemartin/) &nbsp;&middot;&nbsp; 
-
