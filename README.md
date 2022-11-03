@@ -18,7 +18,7 @@
 
 ## Site
 
-[amazingstuffshop.azurewebsites.net](amazingstuffshop.azurewebsites.net/)
+[amazingstuffshop.azurewebsites.net](https://wwww.amazingstuffshop.azurewebsites.net/)
 
 ## How To Use
 
