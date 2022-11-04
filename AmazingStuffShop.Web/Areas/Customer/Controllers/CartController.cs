@@ -161,7 +161,7 @@ namespace AmazingStuff.Web.Areas.Customer.Controllers
             // not a company user so we will proceed to set up a payment session.
             if (applicationUser.CompanyId.GetValueOrDefault() == 0)
             {
-                var domain = "https://localhost:44395/";
+                var domain = "https://amazingstuffshop.azurewebsites.net/";
                 var options = new SessionCreateOptions
                 {
                     PaymentMethodTypes = new List<string>
