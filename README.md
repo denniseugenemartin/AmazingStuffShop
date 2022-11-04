@@ -27,15 +27,15 @@ To utilize this website fully you may use any of the dummy user accounts for you
 ```bash
 Admin Features
 UserName: admin@test.com
-Password: Testpass12#
+Password: Test12#
 
 Normal User Features
 UserName: user@test.com
-Password: Testpass12#
+Password: Test12#
 
 Company User Features
 UserName: company@test.com
-Password: Testpass12#
+Password: Test12#
 ```
 
 In order to simulate payments, this website uses Stripe API's test configuration. See [article](https://stripe.com/docs/testing) for usage.
