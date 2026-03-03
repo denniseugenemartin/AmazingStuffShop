@@ -34,7 +34,7 @@ UserName: user@test.com
 Password: Test12#
 
 Company User Features
-UserName: company@test.com
+UserName: company1@test.com
 Password: Test12#
 ```
 
