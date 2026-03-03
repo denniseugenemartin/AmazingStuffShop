@@ -110,16 +110,34 @@ namespace AmazingStuff.Web.Areas.Identity.Pages.Account
             public string ConfirmPassword { get; set; }
 
             [Required]
+            [Display(Name = "Full Name")]
             public string Name { get; set; }
-            public string? StreetAdress { get; set; }
+
+            [Display(Name = "Street Address")]
+            public string? StreetAddress { get; set; }
+
+            [Display(Name = "City")]
             public string? City { get; set; }
+
+            [Display(Name = "State/Province")]
             public string? State { get; set; }
+
+            [Display(Name = "Postal Code")]
             public string? PostalCode { get; set; }
+
+            [Display(Name = "Phone Number")]
+            [DataType(DataType.PhoneNumber)]
             public string? PhoneNumber { get; set; }
+
+            [Display(Name = "Role")]
             public string? Role { get; set; } 
+
+            [Display(Name = "Company")]
             public int? CompanyId { get; set; }
+
             [ValidateNever]
             public IEnumerable<SelectListItem> RoleList { get; set; }
+
             [ValidateNever]
             public IEnumerable<SelectListItem> CompanyList { get; set; }
         }
@@ -156,7 +174,7 @@ namespace AmazingStuff.Web.Areas.Identity.Pages.Account
 
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
-                user.StreetAdress = Input.StreetAdress;
+                user.StreetAdress = Input.StreetAddress;
                 user.City = Input.City;
                 user.PostalCode = Input.PostalCode;
                 user.State = Input.State;
